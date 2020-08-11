@@ -2,15 +2,11 @@
 // Created by kh on 04.08.20.
 //
 
-#ifndef
-METAWORKS_TRACE_HPP
-#define
-METAWORKS_TRACE_HPP
+#ifndef METAWORKS_TRACE_HPP
+#define METAWORKS_TRACE_HPP
 
-#include
-"defines.hpp"
-#include
-<iostream>
+#include "defines.hpp"
+#include <iostream>
 
 namespace metaworks::kind::buildin{
 

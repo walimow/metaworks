@@ -1,9 +1,6 @@
-#include
-"gtest/gtest.h"
-#include
-<metaworks.hpp>
-#include
-<apply.hpp>
+#include "gtest/gtest.h"
+#include <metaworks.hpp>
+#include <apply.hpp>
 
 using metaworks::kind::get_kind_sz;
 using metaworks::kind::ekind;
