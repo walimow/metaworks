@@ -16,7 +16,7 @@ add_definitions(-std=c++1z)
 
 add_executable(runUnitTests
         atom_test.cpp
-        )
+        form_test.cpp)
 
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 

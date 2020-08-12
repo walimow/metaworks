@@ -12,4 +12,4 @@ include_directories(
 
 add_subdirectory(test)
 
-add_executable(metaworks main.cpp include/metaworks.hpp include/trace.hpp include/defines.hpp include/apply.hpp)
+add_executable(metaworks main.cpp include/metaworks.hpp include/trace.hpp include/defines.hpp include/apply.hpp include/forms.hpp)
