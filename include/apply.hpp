@@ -9,6 +9,7 @@ namespace metaworks {
 
     /// the typed ptr in the function call is necessary for code specification, but the value itself should not be used,
     /// the ptr generally may considered as nullptr or linked to an invalid instance
+    /// the function should use just the type as type
 
     template<typename Ta, typename Tb, typename ...Context>
     auto apply(const Ta *ptr_dont_use, Tb (f)(const Ta *ptr, const Context &...), Context...context) {

@@ -5,7 +5,6 @@
 #include <forms.hpp>
 
 
-TEST (mw_test_forms, atom_0)
-{
+TEST (mw_test_forms, atom_0) {
 
 }

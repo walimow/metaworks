@@ -8,11 +8,11 @@
 #include "defines.hpp"
 #include <iostream>
 
-namespace metaworks::kind::buildin{
+namespace metaworks::kind::buildin {
 
-void trace_type_info(const TI& tinfo, int index  ){
-std::cout<< tinfo.name()<< " - ("<< tinfo.hash_code()<<") "<<index<<std::endl;
-}
+  static void trace_type_info(const TI &tinfo, int index) {
+      std::cout << tinfo.name() << " - (" << tinfo.hash_code() << ") " << index << std::endl;
+  }
 
 }
 

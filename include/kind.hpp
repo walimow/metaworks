@@ -22,12 +22,17 @@ using Ft_t = void(const std::type_info &, int);
 namespace metaworks::kind {
 
     using ktype_t = enum kt {
-        atom, form, mform, seq
+        atom,
+        form,     // any T=F<Args...>
+        fform,    //    functional form withd ft/ff (fo), with or without bounded args
+        mform,     //metaform
+        seq        ///tuple like
     };
 
     static auto _ek_() {
         static std::map<ktype_t, std::string> ekind_types{{atom,  "atom"},
                                                           {form,  "form"},
+                                                          {fform, "fform"},
                                                           {mform, "mform"},
                                                           {seq,   "seq"}};
         return ekind_types;

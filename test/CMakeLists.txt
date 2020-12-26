@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.6)
+cmake_minimum_required(VERSION 3.4)
 
 project(test)
 
@@ -16,7 +16,7 @@ add_definitions(-std=c++1z)
 
 add_executable(runUnitTests
         atom_test.cpp
-        form_test.cpp)
+        form_test.cpp info_test.cpp)
 
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 
